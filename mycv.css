@@ -4,6 +4,7 @@
     border: 0.2em solid rgb(26, 40, 40);
     border-radius:0.8em;
     text-align: center;
+    background-color: rgba(100, 100, 100, 0.2);
 }
 
 body {
@@ -11,16 +12,52 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+
+    background-image:url('https://wallpapers.com/images/high/green-farm-with-grass-and-flowers-in-chatillon-belgium-jdnywvwo99sk6sjy.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
 }
 
 div.section {
     border-left: 0.4em solid darkgreen;
     border-radius: 0.4em;
     margin: 1em;
+    font-size: medium;
+    background-color: rgba(100, 100, 100, 0.5);
 }
 
 h2.section {
     background-color:greenyellow;
     padding: 0.5em;
     margin: 0em;
+    font-size: large;
+}
+
+.flex-container {
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.big-list {
+    display:flex;
+    width: 32em;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin:1em;
+}
+
+p.big-list_item {
+    margin:1em;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+#credit {
+    display:flex;
+    justify-content: end;
+    padding:1em;
 }
